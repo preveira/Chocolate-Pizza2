@@ -43,7 +43,6 @@
 }
 #choc-pizza-text {
     display: flex;
-    border: blue solid;
     justify-content: space-between;
     margin-top: 40px;
     height: fit-content;
@@ -51,30 +50,25 @@
 }
 #choc-pizza-h1p {
     display: flex;
-    border: greenyellow solid;
     flex-direction: column;
     align-items: start;
 }
 #choc-pizza-h1p h1 {
-    border: palevioletred solid;
     margin-bottom: 0;
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
     font-weight: bolder;
 }
 #choc-pizza-h1p p {
-    border: black solid;
     margin-top: 0;
     text-transform: uppercase;
 }
 #print-main-container {
-    border: brown solid;
     display: flex;
     justify-content: end;
     flex-direction: column;
 }
 #print-container {
-    border: purple solid;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -93,7 +87,6 @@
     text-transform: uppercase;
 }
 #print-img-text {
-    border: red solid;
 }
 #pizza-image {
     display: flex;
@@ -117,7 +110,6 @@
 #overlay-list {
     position: absolute;
     z-index: 2;
-    border: red solid;
     width: 100%;
     background: url("../img/list-bg.png");
     background-size: cover;
@@ -130,11 +122,9 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    border: greenyellow solid;
     width: 450px;
 }
 .list-items {
-    border: blue solid;
     display: flex;
     justify-content: space-evenly;
     width: 450px;
@@ -151,13 +141,11 @@
     margin-bottom: 30px;
 }
 #img-button {
-    border: red solid;
     display: flex;
     justify-content: left;
     margin-top: 50px;
 }
 #van-img {
-    border: blue solid;
     display: flex;
     width: 140px;
     margin-right: 20px;
@@ -167,27 +155,23 @@
     width: 140px;
 }
 #van-name-text {
-    border: greenyellow solid;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 #van-name-text h1 {
-    border: black solid;
     margin: 0;
     height: 50%;
     font-family: 'Noto Serif', serif;
     font-size: 30px;
 }
 #van-name-text p {
-    border: brown solid;
     font-size: 20px;
     margin: 0;
     height: 50%;
     font-family: 'Noto Serif', serif;
 }
 #share-button {
-    border: palevioletred solid;
     display: flex;
     justify-content: center;
     flex-direction: column;
